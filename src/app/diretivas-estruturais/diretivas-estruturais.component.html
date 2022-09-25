@@ -1,0 +1,44 @@
+<p *ngIf="condition; else elseBlock">True</p>
+
+<ng-template #elseBlock>
+    <p>...</p>
+</ng-template>
+
+<p *ngIf="conditionClick">true</p>
+
+<p *ngIf="!conditionClick">false</p>
+
+<button (click)="onClick()">Clicar</button>
+
+<ul *ngFor="let item of list; let i = index;">
+    <li (click)="deleteOnClick(i)">[{{i}}] -
+        {{item.listProduct[i].toString()}} </li>
+
+
+</ul>
+<input type="text" [(ngModel)]="nome">
+
+
+<div [ngSwitch]="nome.toLowerCase()">
+    <p *ngSwitchCase="'denner'">Denner</p>
+    <p *ngSwitchCase="'de'">Denner</p>
+    <p *ngSwitchCase="'d'">Denner</p>
+    <p *ngSwitchCase="'d'">David</p>
+    <p *ngSwitchCase="'da'">David</p>
+    <p *ngSwitchCase="'david'">David</p>
+    
+    <p *ngSwitchCase="'nayara'">Nayara</p>
+    <p *ngSwitchCase="'nay'">Nayara</p>
+    <p *ngSwitchCase="'na'">Nayara</p>
+    <p *ngSwitchCase="'na'">Naruto</p>
+    <p *ngSwitchCase="'n'">Nayara</p>
+    <p *ngSwitchCase="'n'">Naruto</p>
+    <p *ngSwitchCase="'nar'">Naruto</p>
+    <p *ngSwitchCase="'gustavo'">Gustavo</p>
+    <p *ngSwitchCase="'g'">Gustavo</p>
+    <p *ngSwitchCase="'gu'">Gustavo</p>
+    <p *ngSwitchCase="'g'">Gabriel</p>
+    <p *ngSwitchCase="'ga'">Gabriel</p>
+    <p *ngSwitchCase="'gabriel'">Gabriel</p>
+    <p *ngSwitchDefault="''">Ainda não buscou nada ou não encontramos sua busca</p>
+</div>
