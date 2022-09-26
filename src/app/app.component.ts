@@ -18,7 +18,11 @@ import {
     <button (click)="destruirComponent()">Destruir Componente</button> -->
     <!-- <app-databinding></app-databinding> -->
     <!-- <app-diretivas-estruturais></app-diretivas-estruturais> -->
-    <app-diretivas-atributes></app-diretivas-atributes>
+    <app-diretivas-atributes>
+      <h1>Curso de diretivas de atributos no angular</h1>
+      <hr/>
+      <footer>All rights reserved - 2022</footer>
+    </app-diretivas-atributes>
     <router-outlet></router-outlet>
   `,
 })

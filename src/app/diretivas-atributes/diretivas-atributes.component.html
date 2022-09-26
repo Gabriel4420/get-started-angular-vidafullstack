@@ -1,8 +1,15 @@
+<ng-content select="h1"></ng-content>
+<ng-content select="hr"></ng-content>
 <p [ngClass]="{'active':value, 'disabled':!value}">NG Class</p>
 
-<p id="p2"[ngStyle]="{'font-size':fontSize}"> NgClass</p>
+<p id="p2" [ngStyle]="{'font-size':fontSize}"> NgClass</p>
 
 
-<ng-template>
-    
+<ng-template ngFor let-item [ngForOf]="list">
+    <h2>{{item.nome}}</h2>
 </ng-template>
+
+<input type="text" [(ngModel)]="nome">
+<button (click)="save()">Salvar</button>
+
+<ng-content select="footer"></ng-content>
