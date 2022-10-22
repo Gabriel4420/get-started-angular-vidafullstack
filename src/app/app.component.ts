@@ -15,15 +15,15 @@ import {
   selector: 'app-root',
   template: `
     <!-- <app-heading *ngIf="destruir"></app-heading>
-    <button (click)="destruirComponent()">Destruir Componente</button> -->
-    <!-- <app-databinding></app-databinding> -->
-    <!-- <app-diretivas-estruturais></app-diretivas-estruturais> -->
-    <!--    <app-diretivas-atributes>
+    <button (click)="destruirComponent()">Destruir Componente</button>
+    <app-databinding></app-databinding>
+    <app-diretivas-estruturais></app-diretivas-estruturais>
+       <app-diretivas-atributes>
       <h1>Curso de diretivas de atributos no angular</h1>
       <hr/>
       <footer>All rights reserved - 2022</footer>
-    </app-diretivas-atributes> -->
-    <!-- <app-input [counter]="addValue"></app-input>
+    </app-diretivas-atributes>
+    <app-input [counter]="addValue"></app-input>
     <br />
     <button (click)="add()">Add</button>
     <ng-template [ngIf]="getData">
@@ -42,9 +42,9 @@ export class AppComponent implements OnInit {
   /* public destruir: boolean = true
 
   public value: number = 1
- */
 
-  /* public destruirComponent() {
+
+  public destruirComponent() {
     this.destruir = !this.destruir
   } */
 
@@ -62,7 +62,7 @@ export class AppComponent implements OnInit {
     this.getData = event
   }
 
-  /*  ngDoCheck(): void {
+   /* ngDoCheck(): void {
     console.log('DoCheck')
   }
 
