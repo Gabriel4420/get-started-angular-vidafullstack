@@ -2,6 +2,8 @@ import { Input, NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
 import { FormsModule } from '@angular/forms'
 
+import { HttpClientModule } from '@angular/common/http'
+
 //Components
 import { InputComponent } from './input/input.component'
 import { OutputComponent } from './output/output.component'
@@ -15,7 +17,7 @@ import { FoodAddComponent } from './food-add/food-add.component'
     FoodListComponent,
     FoodAddComponent,
   ],
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, HttpClientModule],
   exports: [
     InputComponent,
     OutputComponent,
