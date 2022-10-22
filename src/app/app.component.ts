@@ -23,15 +23,16 @@ import {
       <hr/>
       <footer>All rights reserved - 2022</footer>
     </app-diretivas-atributes> -->
-    <app-input [counter]="addValue"></app-input>
+    <!-- <app-input [counter]="addValue"></app-input>
     <br />
     <button (click)="add()">Add</button>
     <ng-template [ngIf]="getData">
-      <h1>Nome:{{getData.name}}</h1> 
-      <h1>Idade:{{getData.age}} anos</h1>
-
+      <h1>Nome:{{ getData.name }}</h1>
+      <h1>Idade:{{ getData.age }} anos</h1>
     </ng-template>
-    <app-output (sendData)="setData($event)"></app-output>
+    <app-output (sendData)="setData($event)"></app-output> -->
+    <app-food-add></app-food-add>
+    <app-food-list></app-food-list>
     <router-outlet></router-outlet>
   `,
 })
