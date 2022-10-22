@@ -40,9 +40,7 @@ export class FoodListComponent implements OnInit {
 
   public editFood(value: string, id: number) {
     return this.foodlistService.foodListEdit(value, id).subscribe({
-      next: (res) => {
-        return console.log(res)
-      },
+      next: (res) => res,
       error: (error) => error,
     })
   }
