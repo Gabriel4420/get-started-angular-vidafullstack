@@ -1,0 +1,55 @@
+<form #submitForm="ngForm">
+    <label>
+        Nome:
+        <input type="text" name="nome" ngModel>
+    </label>
+
+    <div id="fields">
+        <div style="display: flex; flex-direction:column;">
+            <label>
+                Masculino:
+                <input type="radio" name="sexo" value="Masculino" ngModel>
+            </label>
+            <label>
+                Feminino:
+                <input type="radio" name="sexo" value="Feminino" ngModel>
+            </label>
+            <label>
+                Não Binários:
+                <input type="radio" name="sexo" value="NB" ngModel>
+            </label>
+        </div>
+
+        <div style="display: flex; flex-direction:column;">
+            <label>
+                Angular:
+                <input type="checkbox" name="angular" ngModel>
+            </label>
+            <label>
+                Vue:
+                <input type="checkbox" name="vue" ngModel>
+            </label>
+            <label>
+                React:
+                <input type="checkbox" name="react" ngModel>
+            </label>
+        </div>
+    </div>
+
+
+
+    <div class="selectedLanches">
+        <select name="lanches" ngModel>
+            <option value="">Selecione um Lanche</option>
+            <option *ngFor="let comida of listComidas" [ngValue]="comida">
+                {{comida.lanche}} - {{comida.preco}}
+            </option>
+        </select>
+    </div>
+
+
+
+
+</form>
+
+{{submitForm.value | json }}

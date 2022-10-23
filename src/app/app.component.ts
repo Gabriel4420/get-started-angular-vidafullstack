@@ -31,8 +31,9 @@ import {
       <h1>Idade:{{ getData.age }} anos</h1>
     </ng-template>
     <app-output (sendData)="setData($event)"></app-output> -->
-    <app-food-add></app-food-add>
-    <app-food-list></app-food-list>
+    <!-- <app-food-add></app-food-add>
+    <app-food-list></app-food-list> -->
+    <app-forms></app-forms>
     <router-outlet></router-outlet>
   `,
 })
@@ -62,7 +63,7 @@ export class AppComponent implements OnInit {
     this.getData = event
   }
 
-   /* ngDoCheck(): void {
+  /* ngDoCheck(): void {
     console.log('DoCheck')
   }
 
