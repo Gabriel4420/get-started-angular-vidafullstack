@@ -1,27 +1,52 @@
-# MeuPrimeiroProjeto
+<h1 align="center">
+  Projetos de estudo no Angular 2(v14+) 
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+<p align="center">
+   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Gabriel4420/todolistudemyvidafullstack">
 
-## Development server
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Gabriel4420/todolistudemyvidafullstack?logo=html">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/Gabriel4420/todolistudemyvidafullstack?color=green">
 
-## Code scaffolding
+  <br>
+  
+  <a href="https://www.codacy.com/manual/Gabriel4420/todolistudemyvidafullstack?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Gabriel4420/todolistudemyvidafullstack&amp;utm_campaign=Badge_Grade">
+    <img src="https://app.codacy.com/project/badge/Grade/6dd6b46abeb14e99935a2b9ac5c6ede2"/>
+  </a>
+  
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/last-commit/Gabriel4420/todolistudemyvidafullstack">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+  <a href="https://www.linkedin.com/in/gabriel-rodrigues-perez-2069b072/">
+    <img alt="Made by Gabriel" src="https://img.shields.io/badge/made%20by-Gabriel-%2304D361">
+  </a>
+</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## :rocket: Sobre o Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A proposta deste projeto é entender mais sobre alguns conceitos de angular em sua totalidade, bem como: 
 
-## Running end-to-end tests
+✅ Funcionamento de componentes no angular e comunicação
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+✅ Template Data Binding 
 
-## Further help
+✅ Diretivas Angular
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+✅ Module Angular
+
+✅ Comunicação entre componentes [@Input, @Output]
+
+✅ Serviços HTTP e Observables
+
+✅ Forms
+
+O Angular ( Versão 14 + ) é um dos frameworks mais populares do mercado de desenvolvimento front-end. Utilizado para construir aplicações web, mobile ou desktop, que são desenvolvidas utilizando Javascript / TypeScript , HTML e CSS.
+
+Se você não conhece Javascript / TypeScript , não se preocupe, nessa formação te daremos a base de como trabalhar com essa linguagem para que você aproveite o máximo dela e facilite seu dia-a-dia, tirando proveito da análise estática de código e do sistema de tipos dela.
+
+Usado para criar páginas web baseadas em componentes, o ( Javascript / TypeScript ) Angular facilita a manutenção de layouts complexos e isola as responsabilidades de cada parte do seu código. Ele também conta com uma comunidade muito grande e, tendo o Google como mantenedor do projeto, ele sempre está atualizado e evoluindo para se tornar ainda melhor.
+
+
